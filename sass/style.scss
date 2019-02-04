@@ -1,0 +1,195 @@
+$color-blue:#3742fa;
+$color-white:#ffffff;
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+$font-family:'Raleway',
+sans-serif;
+
+body {
+    font-family: $font-family;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+// custom padding
+.py-6 {
+    padding-top: 4rem;
+}
+
+.custom-navbar {
+    background: #5758bb;
+    color: $color-white;
+}
+
+.custom-links {
+    color: $color-white !important;
+}
+
+.hero-section {
+    background: $color-white;
+}
+
+.name {
+    color: $color-blue;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.custom-btn {
+    color: $color-blue;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none !important;
+    transition: all .2s;
+}
+
+.custom-btn:hover {
+    color: $color-blue;
+}
+
+.custom-heading-desing {
+    color: #5758BB;
+    font-weight: 700;
+
+}
+
+.custom-card {
+    border: initial !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.custom-card-header {
+    background: #5758BB;
+    color: #fff;
+    font-size: 23px;
+    border-bottom-left-radius: 32% !important;
+    border-bottom-right-radius: 32% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-card-title {
+    color: #2f3542;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.tools {
+    color: #4b6584;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo-icon {
+    height: 30px;
+    width: 30px;
+    // border-radius: 50%;
+}
+
+.skill {
+    border-bottom: 3px solid #5758BB;
+    color: #333;
+    font-weight: 500;
+    padding: 5px;
+
+}
+
+.bg2 {
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-3deg);
+}
+
+.tools-section {
+    background: #f2f2f2;
+}
+
+.me {
+    color: #5758BB;
+    font-weight: 500;
+}
+
+.i-style {
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    background: #5758BB;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.about-me-p {
+    color: #2f3542;
+    font-weight: 500;
+}
+
+.p-border {
+    padding: 10px;
+}
+
+.github-herf {
+    color: #2f3542;
+    font-size: 20px;
+    transition: all .2s;
+    transform: scale(1);
+}
+
+.github-herf:hover {
+    color: #5758BB;
+    transform: scale(1.1);
+}
+
+.p-github {
+    color: #2f3542;
+    font-weight: 500;
+    border-bottom: 1px solid #5758BB;
+}
+
+.custom-card-footer {
+    border-top: initial;
+    font-weight: 500;
+    a{
+        color: #5758bb;
+    }
+}
+
+.card-project {
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+}
+
+.card-body-project {
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-top: 6px solid #5758bb;
+}
+
+.fa-facebook{
+    color: #0984e3;
+    font-size: 20px;
+}
+
+.fa-telegram-plane{
+    color: #686de0;
+    font-size: 20px;
+}
+
+.fa-github{
+    color: #2f3542;
+    font-size: 20px;
+}
+
+.footer-p{
+    color: #2f3542;
+    font-size: 20px;
+    font-weight: 500;
+}
